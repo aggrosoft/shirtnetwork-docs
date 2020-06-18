@@ -19,7 +19,7 @@ import sphinx_rtd_theme
 # -- Project information -----------------------------------------------------
 
 project = 'Shirtnetwork'
-copyright = '2020, Alexander Kludt'
+copyright = '2020, Aggrosoft GmbH'
 author = 'Alexander Kludt'
 
 
