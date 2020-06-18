@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Shirtnetwork Dokumentation'
+project = 'Shirtnetwork'
 copyright = '2020, Alexander Kludt'
 author = 'Alexander Kludt'
 
