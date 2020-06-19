@@ -83,8 +83,12 @@
               
             
             
-              <!-- Local TOC -->
-              <div class="local-toc"></div>
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="intro/index.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules/index.html">Shop Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="pricing/index.html">Preismodell</a></li>
+</ul>
+
             
           
         </div>
@@ -208,7 +212,15 @@
   </script>
   
   <script type="text/javascript" id="searchindexloader"></script>
-   
+  
+<script type="text/javascript">
+  <!-- Adds target=_blank to external links -->
+
+  $(document).ready(function () {
+    $('a[href^="http://"], a[href^="https://"]').not('a[class*=internal]').attr('target', '_blank');
+  });
+</script>
+
 
 
 </body>

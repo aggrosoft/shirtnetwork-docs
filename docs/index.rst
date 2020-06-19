@@ -3,12 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Shirtnetwork documentation!
-======================================================
+Shirtnetwork Dokumentation
+==========================
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :hidden:
+
+   /intro/index
+   /modules/index
+   /pricing/index
 
 Mit Shirtnetwork haben Sie sich für eine einzigartige und umfassende Lösung für Print on Demand im Webshop entschlossen.
 Mit einer einzigen Software können Sie nicht nur individualisierte Artikel direkt vom Kunden gestalten lassen,
@@ -31,8 +35,8 @@ Die Datenpflege der Produkte wird in unserem speziellen auf HTML5 basierenden We
 90% der Modul Quellcodes sind offen und können nach belieben angepasst werden, dadurch können auch die speziellsten Anwendungsfälle abgebildet werden.
 Fangen Sie schon heute damit an Ihre Werbeartikel mit Shirtnetwork zu vertreiben und erreichen Sie eine nie da gewesenen Absatzsteigerung durch den Einsatz von der interaktiven Technik die wir Ihnen bieten können.
 
-Indices and tables
-==================
+Weiterführende Links
+======================
 
 * :ref:`genindex`
 * :ref:`modindex`
