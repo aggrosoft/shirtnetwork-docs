@@ -61,3 +61,6 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ['_static']
 
 master_doc = 'index'
+
+def setup(app):
+    app.add_js_file('custom.js')
