@@ -17,9 +17,11 @@ Beispiel
 ^^^^^^^^
 Sie verkaufen über Ihren Online Shop 3 Artikel mit Konfiguration, 1 Artikel für 10,90€ und 2 Artikel für 5,20€ - es fallen nun folgende Gebühren an:
 
-1 mal 1€ für den Artikel für 10,90€
-2 mal 0,52€ für die Artikel für 5,20€
-Ergibt 2,04€ Gebühren die anfallen, für die Artikel die nicht konfiguriert wurden zahlen Sie keine Gebühren!
+- 1 x 1,00€ für den Artikel mit VK 10,90€
+- 2 x 0,52€ für die Artikel mit VK 5,20€
+- = 2,04€ Gebühren
+
+Für Artikel die nicht konfiguriert wurden zahlen Sie keine Gebühren!
 
 Preisstaffeln
 _____________
