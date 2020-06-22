@@ -10,3 +10,6 @@ Anschließend können Sie sich im sog. HBE (Händler Backend) anmelden und mit d
    register
    account
    hbe
+   backend
+   connect
+   orders
