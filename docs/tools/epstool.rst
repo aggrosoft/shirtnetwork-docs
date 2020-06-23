@@ -39,7 +39,7 @@ Starten Sie das EPS Tool per Doppelklick auf die Datei :guilabel:`PdfLogoCreator
 
 Sollte das Tool nicht starten führen Sie bitte den folgenden Befehl auf der Kommandozeile Ihres Betriebssystems aus
 
-:guilabel:`java -jar C:\epstool\PDFLogoCreator.jar`
+:guilabel:`java -jar C:\\epstool\\PDFLogoCreator.jar`
 
 Passen Sie den Pfad an ihren gewählten Installationsordner an, achten Sie auf eventuelle Fehlermeldung die ausgegeben
 werden. Sollten Sie die Fehlermeldung nicht selbst beheben können senden Sie bitte die vollständige Ausgabe an unseren Support.

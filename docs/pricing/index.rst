@@ -1,5 +1,5 @@
 Preismodell
-===================
+##############
 
 .. toctree::
    :maxdepth: 1

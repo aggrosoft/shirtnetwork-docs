@@ -1,5 +1,5 @@
 Gebühren
-========
+##############
 
 Für die Nutzung von Shirtnetwork fallen Gebühren an, Sie zahlen jedoch nur für Artikel die Sie wirklich verkauft haben.
 Die Gebühren werden auf zwei Arten verrechnet, entweder per Lastschrift Verfahren für Kunden mit einem Gebührenvolumen von mindestens 300€ monatlich, oder per Prepaid (Coins) System.
@@ -8,13 +8,13 @@ Für das Lastschrift Verfahren müssen Sie sich bei Interesse seperat anmelden, 
 *Da die Gebühren auf den Brutto Preis anfallen sind alle Preisangaben inklusive Mehrwertsteuer*
 
 Berechnung
-----------
+**********
 
 Für Artikel mit einem brutto Verkaufswert über 10€ zahlen Sie pauschal 1€ pro verkauftem Artikel
 Für Artikel mit einem brutto Verkaufswert unter 10€ zahlen Sie 10% des Verkaufswertes
 
 Beispiel
-^^^^^^^^
+========
 Sie verkaufen über Ihren Online Shop 3 Artikel mit Konfiguration, 1 Artikel für 10,90€ und 2 Artikel für 5,20€ - es fallen nun folgende Gebühren an:
 
 - 1 x 1,00€ für den Artikel mit VK 10,90€
@@ -24,12 +24,12 @@ Sie verkaufen über Ihren Online Shop 3 Artikel mit Konfiguration, 1 Artikel fü
 Für Artikel die nicht konfiguriert wurden zahlen Sie keine Gebühren!
 
 Preisstaffeln
-_____________
+*************
 
 Bei entsprechend hohem Verkaufvolumen erhalten Sie einen Rabatt auf Ihre Gebühren.
 
 Prepaid
-^^^^^^^
+=======
 
 ===== ======== ========
 Coins Kosten   Rabatt
@@ -46,7 +46,7 @@ Coins Kosten   Rabatt
 ===== ======== ========
 
 Lastschrift
-^^^^^^^^^^^
+===========
 
 =========================== ============
 Verkaufte Artikel monatlich Gebühr

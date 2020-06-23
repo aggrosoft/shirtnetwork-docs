@@ -1,5 +1,5 @@
 Anmeldung
-=========
+##############
 
 Füllen Sie alle Pflichtfelder in unserem `Registrierungsformular <https://www.shirtnetwork.de/konto-eroeffnen>`__ aus, die Kontoerstellung ist kostenlos.
 Die gewählte E-Mail Adresse wird auch gleichzeitig als ihr zukünftiger Shirtnetwork Benutzername verwendet.

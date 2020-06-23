@@ -1,5 +1,5 @@
 Produktdaten hinzufügen
-=======================
+############################
 
 Da Shirtnetwork Artikel mehr Daten als ein klassischer Artikel benötigen wie z.B. verschiedene Ansichten, Druckarten etc.
 ist es notwendig die Artikeldaten in einer separaten Software anzulegen. Die Daten können massenweise importiert
