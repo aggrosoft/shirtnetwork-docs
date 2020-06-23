@@ -7,6 +7,7 @@ Shirtnetwork Dokumentation
 ==========================
 
 .. toctree::
+   :caption: Inhalt
    :maxdepth: 2
    :hidden:
 
