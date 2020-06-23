@@ -11,6 +11,7 @@ Shirtnetwork Dokumentation
    :hidden:
 
    /intro/index
+   /tools/index
    /modules/index
    /pricing/index
 
