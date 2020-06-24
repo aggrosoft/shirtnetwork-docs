@@ -8,3 +8,4 @@ Oxid eShop
    install
    settings
    usage
+   orders
