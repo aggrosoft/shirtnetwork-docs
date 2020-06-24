@@ -7,6 +7,6 @@ um ein Shop Plugin das wie gewohnt installiert wird.
 Bitte rufen Sie den zugehörigen Handbucheintrag für Ihr Shopsystem auf und installieren Sie den Connector:
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
 
-   /modules/oxid
+   /modules/index

@@ -26,10 +26,10 @@ Das Paket kommt als .zip Archiv und muss entpackt werden, im Normalfall bietet i
 Entpacken Sie das Archiv in ein Verzeichnis Ihrer Wahl z.B. :guilabel:`C:\\epstool`. **Der Verzeichnisname darf keine runden oder eckigen Klammern enthalten,
 er darf auch keine Umlaute enthalten.**
 
-Pearl installieren
+Perl installieren
 ^^^^^^^^^^^^^^^^^^
 
-Unter Windows ist es zusätzlich notwendig Pearl zu installieren, laden Sie das `Strawberry Pearl Installationspaket <http://strawberryperl.com/>`__ herunter
+Unter Windows ist es zusätzlich notwendig Perl zu installieren, laden Sie das `Strawberry Perl Installationspaket <http://strawberryperl.com/>`__ herunter
 und installieren Sie es unter :guilabel:`C:\\strawberry` (Standardeinstellung)
 
 Software starten

@@ -58,6 +58,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_options = {
     'canonical_url': '',
     'display_version': False,
+    'logo_only': True,
     'prev_next_buttons_location': 'bottom',
     'style_external_links': True,
     'style_nav_header_background': 'white',
@@ -76,6 +77,9 @@ html_context = {
     "github_version": "master", # Version
     "conf_py_path": "/docs/", # Path in the checkout to the docs root
 }
+
+html_logo = "_static/img/logo.png"
+
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

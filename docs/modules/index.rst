@@ -7,4 +7,5 @@ um ein Shop Plugin das wie gewohnt installiert wird.
 .. toctree::
    :maxdepth: 1
 
-   oxid
+   general/index
+   oxid/index
