@@ -1,3 +1,4 @@
+############################
 Produktdaten hinzufügen
 ############################
 
@@ -8,4 +9,4 @@ oder manuell eingegeben werden, im Anschluss können die notwendigen Daten in Ih
 Die Verwaltungssoftware HBE finden Sie online, sie lässt sich in den meisten modernen Browsern bedienen und ist Endgeräte unabhängig.
 Sie finden das HBE unter `https://hbe.shirtnetwork.de <https://hbe.shirtnetwork.de>`__
 
-Hinweise zur Bedienung der Software entnehmen Sie bitte dem zugehörigen `Handbucheintrag </hbe/index>`__.
+Hinweise zur Bedienung der Software entnehmen Sie bitte dem zugehörigen :doc:`Handbucheintrag </hbe/index>`.
