@@ -1,0 +1,336 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Gebühren &mdash; Shirtnetwork  Dokumentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/custom.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="HBE - Händler Backend" href="../hbe/index.html" />
+    <link rel="prev" title="Preismodell" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../tools/index.html">Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/index.html">Shop Module</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Preismodell</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Gebühren</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#berechnung">Berechnung</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#beispiel">Beispiel</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#preisstaffeln">Preisstaffeln</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#prepaid">Prepaid</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lastschrift">Lastschrift</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../hbe/index.html">HBE - Händler Backend</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Shirtnetwork</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Preismodell</a> &raquo;</li>
+        
+      <li>Gebühren</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/pricing/fees.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gebuhren">
+<h1>Gebühren<a class="headerlink" href="#gebuhren" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Für die Nutzung von Shirtnetwork fallen Gebühren an, Sie zahlen jedoch nur für Artikel die Sie wirklich verkauft haben.
+Die Gebühren werden auf zwei Arten verrechnet, entweder per Lastschrift Verfahren für Kunden mit einem Gebührenvolumen von mindestens 300€ monatlich, oder per Prepaid (Coins) System.
+Für das Lastschrift Verfahren müssen Sie sich bei Interesse seperat anmelden, kontaktieren Sie uns hierfür einfach direkt.</p>
+<p><em>Da die Gebühren auf den Brutto Preis anfallen sind alle Preisangaben inklusive Mehrwertsteuer</em></p>
+<div class="section" id="berechnung">
+<h2>Berechnung<a class="headerlink" href="#berechnung" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Für Artikel mit einem brutto Verkaufswert über 10€ zahlen Sie pauschal 1€ pro verkauftem Artikel
+Für Artikel mit einem brutto Verkaufswert unter 10€ zahlen Sie 10% des Verkaufswertes</p>
+<div class="section" id="beispiel">
+<h3>Beispiel<a class="headerlink" href="#beispiel" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Sie verkaufen über Ihren Online Shop 3 Artikel mit Konfiguration, 1 Artikel für 10,90€ und 2 Artikel für 5,20€ - es fallen nun folgende Gebühren an:</p>
+<ul class="simple">
+<li><p>1 x 1,00€ für den Artikel mit VK 10,90€</p></li>
+<li><p>2 x 0,52€ für die Artikel mit VK 5,20€</p></li>
+<li><p>= 2,04€ Gebühren</p></li>
+</ul>
+<p>Für Artikel die nicht konfiguriert wurden zahlen Sie keine Gebühren!</p>
+</div>
+</div>
+<div class="section" id="preisstaffeln">
+<h2>Preisstaffeln<a class="headerlink" href="#preisstaffeln" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Bei entsprechend hohem Verkaufvolumen erhalten Sie einen Rabatt auf Ihre Gebühren.</p>
+<div class="section" id="prepaid">
+<h3>Prepaid<a class="headerlink" href="#prepaid" title="Link zu dieser Überschrift">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 24%" />
+<col style="width: 38%" />
+<col style="width: 38%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Coins</p></th>
+<th class="head"><p>Kosten</p></th>
+<th class="head"><p>Rabatt</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>10,00€</p></td>
+<td><p>n.V.</p></td>
+</tr>
+<tr class="row-odd"><td><p>20</p></td>
+<td><p>20,00€</p></td>
+<td><p>n.V.</p></td>
+</tr>
+<tr class="row-even"><td><p>50</p></td>
+<td><p>50,00€</p></td>
+<td><p>n.V.</p></td>
+</tr>
+<tr class="row-odd"><td><p>100</p></td>
+<td><p>100,00€</p></td>
+<td><p>n.V.</p></td>
+</tr>
+<tr class="row-even"><td><p>250</p></td>
+<td><p>245,00€</p></td>
+<td><p>5,00€</p></td>
+</tr>
+<tr class="row-odd"><td><p>500</p></td>
+<td><p>490,00€</p></td>
+<td><p>10,00€</p></td>
+</tr>
+<tr class="row-even"><td><p>1000</p></td>
+<td><p>975,00€</p></td>
+<td><p>25,00€</p></td>
+</tr>
+<tr class="row-odd"><td><p>2500</p></td>
+<td><p>2000,00€</p></td>
+<td><p>500,00€</p></td>
+</tr>
+<tr class="row-even"><td><p>5000</p></td>
+<td><p>4000,00€</p></td>
+<td><p>1000,00€</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="lastschrift">
+<h3>Lastschrift<a class="headerlink" href="#lastschrift" title="Link zu dieser Überschrift">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 69%" />
+<col style="width: 31%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Verkaufte Artikel monatlich</p></th>
+<th class="head"><p>Gebühr</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ab 2500</p></td>
+<td><p>0,75€ / 7,5%</p></td>
+</tr>
+<tr class="row-odd"><td><p>ab 5000</p></td>
+<td><p>0,50€ / 5,0%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../hbe/index.html" class="btn btn-neutral float-right" title="HBE - Händler Backend" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Preismodell" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Aggrosoft GmbH
+
+    </p>
+  </div>
+    
+    
+    
+    Erstellt mit <a href="http://sphinx-doc.org/">Sphinx</a> mit einem
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

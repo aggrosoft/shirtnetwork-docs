@@ -1,0 +1,347 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Konfiguration &mdash; Shirtnetwork  Dokumentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+        <script src="../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Stichwortverzeichnis" href="../../genindex.html" />
+    <link rel="search" title="Suche" href="../../search.html" />
+    <link rel="next" title="Verwendung" href="usage.html" />
+    <link rel="prev" title="Installation" href="install.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../../index.html">
+          
+
+          
+            
+            <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../intro/index.html">Erste Schritte</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../intro/register.html">Anmeldung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/account.html">Kontoübersicht</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/hbe.html">Produktdaten hinzufügen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/backend.html">Backend Server installieren</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../intro/connect.html">Shop verbinden</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">Shop Module</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../general/index.html">Allgemeine Informationen</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Oxid eShop</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/orders.html">Bestellungen verarbeiten</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools/index.html">Tools</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Shop Module</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../general/index.html">Allgemeine Informationen</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Oxid eShop</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Konfiguration</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#zugangsdaten">Zugangsdaten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#backend">Backend</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#einstellungen">Einstellungen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#synchronisierung">Synchronisierung</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#daten-mapping">Daten Mapping</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#seo">SEO</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#laufzettel">Laufzettel</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="usage.html">Verwendung</a></li>
+<li class="toctree-l3"><a class="reference internal" href="orders.html">Bestellungen bearbeiten</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../pricing/index.html">Preismodell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../hbe/index.html">HBE - Händler Backend</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Shirtnetwork</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../intro/index.html">Erste Schritte</a> &raquo;</li>
+        
+          <li><a href="../../intro/connect.html">Shop verbinden</a> &raquo;</li>
+        
+          <li><a href="../index.html">Shop Module</a> &raquo;</li>
+        
+          <li><a href="index.html">Oxid eShop</a> &raquo;</li>
+        
+      <li>Konfiguration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/modules/oxid/settings.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="konfiguration">
+<h1>Konfiguration<a class="headerlink" href="#konfiguration" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Das Modul kommt mit verschiedenen Einstellungen die vor der Verwendung konfiguriert werden müssen.</p>
+<div class="section" id="zugangsdaten">
+<h2>Zugangsdaten<a class="headerlink" href="#zugangsdaten" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Geben Sie hier Ihren Shirtnetwork Benutzernamen und das Passwort ein, nachdem Sie die Einstellungen speichern wird
+automatisch die zugehörige Benutzer ID ermittelt.</p>
+</div>
+<div class="section" id="backend">
+<h2>Backend<a class="headerlink" href="#backend" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Geben Sie hier die URLs zu Ihrem <a class="reference internal" href="../../tools/backend.html"><span class="doc">Backend Server</span></a> ein. <span class="guilabel">https://backend.mein-shop.de/files</span>
+für <code class="docutils literal notranslate"><span class="pre">Upload</span> <span class="pre">Server</span> <span class="pre">URL</span></code> und <span class="guilabel">https://backend.mein-shop.de</span> für <code class="docutils literal notranslate"><span class="pre">Config</span> <span class="pre">Server</span> <span class="pre">URL</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">EPS</span> <span class="pre">Tool</span> <span class="pre">Projekt</span></code> enthält den Namen des <a class="reference internal" href="../../tools/epstool.html"><span class="doc">EPS Tool</span></a> Projekts den Sie festgelegt haben.</p>
+<div class="admonition attention">
+<p class="admonition-title">Achtung</p>
+<p>Achten Sie auf die genaue Schreibweise des Projektnamens, inklusive aller Leerzeichen und der Groß- und Kleinschreibung</p>
+</div>
+</div>
+<div class="section" id="einstellungen">
+<h2>Einstellungen<a class="headerlink" href="#einstellungen" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="start-artikelnummer">
+<h3>Start Artikelnummer<a class="headerlink" href="#start-artikelnummer" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Gültige Artikelnummer die geladen werden soll wenn der Designer ohne eine Artikelnummer aufgerufen wird. Achten Sie unbedingt
+darauf dass dieser Artikel aktiv ist und dem Shop zugewiesen wurde.</p>
+</div>
+<div class="section" id="artikelnummern-schema">
+<h3>Artikelnummern Schema<a class="headerlink" href="#artikelnummern-schema" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Ihr aktuelles Artikelnummern Schema, weitere Informationen hierzu entnehmen Sie bitte dem zugehörigen Handbucheintrag.</p>
+</div>
+<div class="section" id="designer-version">
+<h3>Designer Version<a class="headerlink" href="#designer-version" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Version des Designers die geladen werden soll, das Feld schlägt automatisch die neuesten Versionen vor die zur Verfügung
+stehen und zeigt diese an. Wählen Sie bei einer Neuinstallation die höchste Versionsnummer.</p>
+</div>
+<div class="section" id="druckart-auswahlmodus">
+<h3>Druckart Auswahlmodus<a class="headerlink" href="#druckart-auswahlmodus" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Legt fest wie Druckarten vom Benutzer gewählt werden können, für jedes einzelne Objekt oder nur pro Ansicht oder Produkt.
+Bitte beachten Sie dass im <code class="docutils literal notranslate"><span class="pre">Nach</span> <span class="pre">Objekt</span></code> Modus das Objekt (Text, Motiv) angewählt werden muss um die Druckart zu wechseln,
+dies führt häufig zu Missverständnissen.</p>
+</div>
+<div class="section" id="preise-nicht-uberschreiben">
+<h3>Preise nicht überschreiben<a class="headerlink" href="#preise-nicht-uberschreiben" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Wenn diese Option aktiv ist werden immer die Preise aus dem Shopsystem verwendet.
+Für die korrekte Preisanzeige im Designer ist dann das Shopsystem verantwortlich.</p>
+</div>
+<div class="section" id="debug-modus">
+<h3>Debug Modus<a class="headerlink" href="#debug-modus" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Aktiviert Entwickler Optionen, dadurch ist es möglich die <a class="reference external" href="https://github.com/vuejs/vue-devtools">VueJS Entwickler Tools</a> zu verwenden.</p>
+<div class="admonition attention">
+<p class="admonition-title">Achtung</p>
+<p>Verwenden Sie den Debug Modus niemals im Live Betrieb!</p>
+</div>
+</div>
+<div class="section" id="produkte-motive-pro-seite">
+<h3>Produkte / Motive pro Seite<a class="headerlink" href="#produkte-motive-pro-seite" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Gibt an wie viele Produkte bzw. Motive pro Seite in den Listen im Designer dargestellt werden.</p>
+</div>
+</div>
+<div class="section" id="synchronisierung">
+<h2>Synchronisierung<a class="headerlink" href="#synchronisierung" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Mit diesen Einstellungen legen Sie fest wie das Oxid Feld <code class="docutils literal notranslate"><span class="pre">Name</span> <span class="pre">der</span> <span class="pre">Auswahl</span></code> beim synchronisieren befüllt wird.
+Mehr Informationen zu diesem Feld entnehmen Sie bitte dem <a class="reference external" href="https://docs.oxid-esales.com/eshop/de/6.2/einrichtung/artikel/registerkarte-varianten.html">Oxid eShop Handbucheintrag</a></p>
+</div>
+<div class="section" id="daten-mapping">
+<h2>Daten Mapping<a class="headerlink" href="#daten-mapping" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Geben Sie hier Daten im Format <code class="docutils literal notranslate"><span class="pre">oxidfeld</span> <span class="pre">=&gt;</span> <span class="pre">variable</span></code> ein, im Designer Template können Sie auf diese Daten via <code class="docutils literal notranslate"><span class="pre">$shop(&quot;variable&quot;)</span></code> zugreifen.
+So können Sie beliebige Oxid Datenbankfelder des Artikels im Designer verwenden z.B. <code class="docutils literal notranslate"><span class="pre">oxean</span> <span class="pre">=&gt;</span> <span class="pre">ean</span></code> macht die EAN im Designer Template
+als <code class="docutils literal notranslate"><span class="pre">$shop(&quot;ean&quot;)</span></code> verfügbar.</p>
+</div>
+<div class="section" id="seo">
+<h2>SEO<a class="headerlink" href="#seo" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Legen Sie hier die gewünschten Meta Tags für den Designer fest. Die Meta Angaben für Logo Kategorien geben Sie im Format <code class="docutils literal notranslate"><span class="pre">kategorieid</span> <span class="pre">=&gt;</span> <span class="pre">Wert</span></code> an.</p>
+<div class="literal-block-wrapper docutils container" id="id1">
+<div class="code-block-caption"><span class="caption-text">Beispiel für Logo Kategorie Meta</span><a class="headerlink" href="#id1" title="Link zu diesem Quellcode">¶</a></div>
+<div class="highlight-php notranslate"><div class="highlight"><pre><span></span><span class="x">1001 =&gt; Meine SEO description</span>
+<span class="x">1002 =&gt; Eine andere Beschreibung</span>
+<span class="x">1004 =&gt; Noch mehr</span>
+</pre></div>
+</div>
+</div>
+<p>Die ID’s der einzelnen Kategorien lesen Sie am einfachsten aus der URL der Logoliste ab, diese finden Sie unter <a class="reference external" href="https://www.ihr-shop.de/index.php?cl=designer_logos">https://www.ihr-shop.de/index.php?cl=designer_logos</a></p>
+</div>
+<div class="section" id="laufzettel">
+<h2>Laufzettel<a class="headerlink" href="#laufzettel" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Hier finden Sie verschiedene Einstellungen mit denen Sie die Ausgabe des Laufzettels zu den Bestellungen anpassen können.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="usage.html" class="btn btn-neutral float-right" title="Verwendung" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="install.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Aggrosoft GmbH
+
+    </p>
+  </div>
+    
+    
+    
+    Erstellt mit <a href="http://sphinx-doc.org/">Sphinx</a> mit einem
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

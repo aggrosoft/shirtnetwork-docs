@@ -1,0 +1,302 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>EPS Tool &mdash; Shirtnetwork  Dokumentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+        <script src="../_static/js/custom.js"></script>
+        <script src="../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Stichwortverzeichnis" href="../genindex.html" />
+    <link rel="search" title="Suche" href="../search.html" />
+    <link rel="next" title="Preismodell" href="../pricing/index.html" />
+    <link rel="prev" title="Backend Server" href="backend.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../index.html">
+          
+
+          
+            
+            <img src="../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../intro/index.html">Erste Schritte</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Tools</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="backend.html">Backend Server</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">EPS Tool</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#installation">Installation</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#java-installieren">Java installieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#paket-installieren">Paket installieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#perl-installieren">Perl installieren</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#software-starten">Software starten</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#konfiguration">Konfiguration</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#verwendung">Verwendung</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../modules/index.html">Shop Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pricing/index.html">Preismodell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../hbe/index.html">HBE - Händler Backend</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Shirtnetwork</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Tools</a> &raquo;</li>
+        
+      <li>EPS Tool</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/tools/epstool.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="eps-tool">
+<h1>EPS Tool<a class="headerlink" href="#eps-tool" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Das EPS Tool erzeugt aus den Konfigurationen Ihrer Kunden automatisch Druckdaten.
+Das Tool kommuniziert hierfür mit dem <a class="reference internal" href="backend.html"><span class="doc">Backend Server</span></a>, dieser sollte also vorher installiert worden sein.</p>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="java-installieren">
+<h3>Java installieren<a class="headerlink" href="#java-installieren" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Das EPS Tool basiert auf Java, um es zu verwenden muss ein sog. Java Runtime Environment (JRE) auf Ihrem
+Computer installiert sein. Wir empfehlen den Einsatz des kostenfreien Open JDK von Oracle.</p>
+<p>Adopt Open JDK stellt fertige Installationpakete für Open JDK bereit, dies vereinfacht die Installation.</p>
+<p>Laden Sie das <a class="reference external" href="https://adoptopenjdk.net">Open JDK Installationspaket</a> für ihr Betriebssystem herunter und führen Sie es aus.
+Die Vorauswahl auf der Website ist bereits optimal eingestellt. Folgen Sie den Schritten im Installer, weitere Hilfe finden Sie auf der Website von Adopt Open JDK.</p>
+</div>
+<div class="section" id="paket-installieren">
+<h3>Paket installieren<a class="headerlink" href="#paket-installieren" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Laden Sie zunächst das Installationspaket aus unserem <a class="reference external" href="https://www.shirtnetwork.de/downloads">Download Bereich</a> herunter.
+Das Paket kommt als .zip Archiv und muss entpackt werden, im Normalfall bietet ihr Betriebssystem hierfür eine Möglichkeit.
+Entpacken Sie das Archiv in ein Verzeichnis Ihrer Wahl z.B. <span class="guilabel">C:\epstool</span>. <strong>Der Verzeichnisname darf keine runden oder eckigen Klammern enthalten,
+er darf auch keine Umlaute enthalten.</strong></p>
+</div>
+<div class="section" id="perl-installieren">
+<h3>Perl installieren<a class="headerlink" href="#perl-installieren" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Unter Windows ist es zusätzlich notwendig Perl zu installieren, laden Sie das <a class="reference external" href="http://strawberryperl.com/">Strawberry Perl Installationspaket</a> herunter
+und installieren Sie es unter <span class="guilabel">C:\strawberry</span> (Standardeinstellung)</p>
+</div>
+<div class="section" id="software-starten">
+<h3>Software starten<a class="headerlink" href="#software-starten" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Starten Sie das EPS Tool per Doppelklick auf die Datei <span class="guilabel">PdfLogoCreator.jar</span> im Installationsordner des EPS Tools.</p>
+<p>Sollte das Tool nicht starten führen Sie bitte den folgenden Befehl auf der Kommandozeile Ihres Betriebssystems aus</p>
+<p><span class="guilabel">java -jar C:\epstool\PDFLogoCreator.jar</span></p>
+<p>Passen Sie den Pfad an ihren gewählten Installationsordner an, achten Sie auf eventuelle Fehlermeldung die ausgegeben
+werden. Sollten Sie die Fehlermeldung nicht selbst beheben können senden Sie bitte die vollständige Ausgabe an unseren Support.</p>
+</div>
+</div>
+<div class="section" id="konfiguration">
+<h2>Konfiguration<a class="headerlink" href="#konfiguration" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Nach dem ersten Start muss ein Projekt konfiguriert werden, der Bildschirm hierfür wird automatisch geöffnet.</p>
+<div class="figure align-center" id="id1">
+<img alt="../_images/epstool-project.png" src="../_images/epstool-project.png" />
+<p class="caption"><span class="caption-text">Projektbildschirm EPS Tool</span><a class="headerlink" href="#id1" title="Link zu diesem Bild">¶</a></p>
+</div>
+<p>Füllen Sie unter <code class="docutils literal notranslate"><span class="pre">or</span> <span class="pre">create</span> <span class="pre">new</span> <span class="pre">project</span></code> die Felder aus.</p>
+<ul class="simple">
+<li><p><strong>Project:</strong> Name des Projekts, frei definierbar. Halten Sie den Namen am besten kurz und prägnant.</p></li>
+<li><p><strong>Shop-URL:</strong> URL zum <a class="reference internal" href="backend.html"><span class="doc">Backend Server</span></a> e.g. <span class="guilabel">https://backend.mein-shop.de</span></p></li>
+<li><p><strong>HBE-Login:</strong> Shirtnetwork Benutzername bzw. E-Mail Adresse</p></li>
+<li><p><strong>HBE-Password:</strong> Shirtnetwork Passwort</p></li>
+<li><p><strong>Shop System:</strong> Wählen Sie in diesem Fall bitte unbedingt <code class="docutils literal notranslate"><span class="pre">Config-Server</span></code></p></li>
+</ul>
+<p>Drücken Sie auf OK um das neue Projekt zu speichern.</p>
+</div>
+<div class="section" id="verwendung">
+<h2>Verwendung<a class="headerlink" href="#verwendung" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Das EPS Tool erlaubt es Ihnen Bestellungen manuell zu filtern und zu generieren, zusätzlich lässt sich die Generierung
+eines bestimmten Auftrags auch direkt aus der Shop bzw. Warexo Backend starten.</p>
+<div class="figure align-center" id="id2">
+<img alt="../_images/epstool-list.png" src="../_images/epstool-list.png" />
+<p class="caption"><span class="caption-text">EPS Tool Hauptbildschirm</span><a class="headerlink" href="#id2" title="Link zu diesem Bild">¶</a></p>
+</div>
+<p>Geben Sie unter <span class="guilabel">from</span> und <span class="guilabel">until</span> einen Datumsbereich ein oder tragen Sie unter <span class="guilabel">Orders</span> eine
+oder mehrere Bestellnummern (Komma getrennt) ein und klicken Sie auf <span class="guilabel">Load Orders</span> um eine Liste mit Bestellungen
+zu erstellen.</p>
+<p>Wählen Sie per Rechtsklick einen Eintrag aus, der Befehl <span class="guilabel">Generate EPS/AI/PDF</span> erzeugt die Druckdaten. Nachdem
+der Vorgang abgeschlossen ist können Sie per Rechtsklick <span class="guilabel">Open …</span> die Druckdatei im gewünschten Format öffnen.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../pricing/index.html" class="btn btn-neutral float-right" title="Preismodell" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="backend.html" class="btn btn-neutral float-left" title="Backend Server" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Aggrosoft GmbH
+
+    </p>
+  </div>
+    
+    
+    
+    Erstellt mit <a href="http://sphinx-doc.org/">Sphinx</a> mit einem
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

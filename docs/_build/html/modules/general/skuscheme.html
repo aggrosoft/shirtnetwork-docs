@@ -1,0 +1,382 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Artikelnummern Schema &mdash; Shirtnetwork  Dokumentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+        <script src="../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Stichwortverzeichnis" href="../../genindex.html" />
+    <link rel="search" title="Suche" href="../../search.html" />
+    <link rel="next" title="Oxid eShop" href="../oxid/index.html" />
+    <link rel="prev" title="Allgemeine Informationen" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../../index.html">
+          
+
+          
+            
+            <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../../intro/index.html">Erste Schritte</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../intro/register.html">Anmeldung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/account.html">Kontoübersicht</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/hbe.html">Produktdaten hinzufügen</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/backend.html">Backend Server installieren</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../intro/connect.html">Shop verbinden</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../index.html">Shop Module</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Allgemeine Informationen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../oxid/index.html">Oxid eShop</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../intro/orders.html">Bestellungen verarbeiten</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools/index.html">Tools</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Shop Module</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Allgemeine Informationen</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Artikelnummern Schema</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#stammartikel">Stammartikel</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#varianten">Varianten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#groszen">Größen</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#mehrdimensionale-varianten">Mehrdimensionale Varianten</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#beispiele">Beispiele</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../oxid/index.html">Oxid eShop</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../pricing/index.html">Preismodell</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../hbe/index.html">HBE - Händler Backend</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Shirtnetwork</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../intro/index.html">Erste Schritte</a> &raquo;</li>
+        
+          <li><a href="../../intro/connect.html">Shop verbinden</a> &raquo;</li>
+        
+          <li><a href="../index.html">Shop Module</a> &raquo;</li>
+        
+          <li><a href="index.html">Allgemeine Informationen</a> &raquo;</li>
+        
+      <li>Artikelnummern Schema</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/modules/general/skuscheme.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="artikelnummern-schema">
+<h1>Artikelnummern Schema<a class="headerlink" href="#artikelnummern-schema" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Die Artikelnummer ist eine zentrale Komponente die sehr wichtig ist für die Übertragung der Daten an das Shop System ist.
+Die verschiedenen Connectoren unterstützen unterschiedliche Methoden der Übertragung.
+Die folgenden Schemas sind lediglich Empfehlungen die sich in der Praxis bewährt haben,
+das soll Sie natürlich nicht davon abhalten Ihr eigenes Schema zu verwenden.</p>
+<div class="section" id="stammartikel">
+<h2>Stammartikel<a class="headerlink" href="#stammartikel" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Für alle Connectoren gilt, die Artikelnummer des Stammartikels muss im HBE und im Shopsystem genau identisch sein.
+Wir empfehlen entweder die Übernahme der Artikelnummer des Händlers oder
+die Verwendung eines Schemas um Artikelnummern festzulegen.</p>
+<div class="section" id="nummeriert">
+<h3>Nummeriert<a class="headerlink" href="#nummeriert" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Eine einfache Möglichkeit der Artikelnummernvergabe ist die Verwendung von
+fortlaufenden Nummern mit führenden Nullen.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">000001</span>
+<span class="mi">000002</span>
+<span class="mi">000003</span>
+<span class="mi">000004</span>
+<span class="mi">000005</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="gruppiert">
+<h3>Gruppiert<a class="headerlink" href="#gruppiert" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Wenn Sie viele Warengruppen im Sortiment haben empfiehlt es sich die Artikel zusätzlich mit einem Prefix zu versehen
+um z.B. zwischen Herren, Damen und Kinderkleidung zu unterscheiden.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A00001</span>
+<span class="n">A00002</span>
+<span class="n">B00001</span>
+<span class="n">B00002</span>
+<span class="n">C00001</span>
+<span class="n">C00002</span>
+</pre></div>
+</div>
+<div class="admonition hint">
+<p class="admonition-title">Hinweis</p>
+<p>Diese Schemas lassen sich auch für die Varianten wiederverwenden.</p>
+</div>
+</div>
+</div>
+<div class="section" id="varianten">
+<h2>Varianten<a class="headerlink" href="#varianten" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Wie Sie die Varianten Ihrer Artikel kennzeichnen sollten hängt davon ab ob Sie eine Lagerhaltung
+und/oder eine Anbindung an Ihre Warenwirtschaft benötigen. 2 Methoden haben sich bisher gut bewährt.</p>
+<div class="section" id="sub-nummern">
+<h3>Sub Nummern<a class="headerlink" href="#sub-nummern" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Bei diesem Schema werden die Varianten jeweils mit der Hauptartikelnummer als Prefix gekennzeichnet.
+Beispiel für Varianten eines Hauptartikels mit der Artikelnummer 000001:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">000001</span><span class="o">-</span><span class="mi">001</span>
+<span class="mi">000001</span><span class="o">-</span><span class="mi">002</span>
+<span class="mi">000001</span><span class="o">-</span><span class="mi">003</span>
+<span class="mi">000001</span><span class="o">-</span><span class="mi">004</span>
+<span class="mi">000001</span><span class="o">-</span><span class="mi">005</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="variantenabhangig">
+<h3>Variantenabhängig<a class="headerlink" href="#variantenabhangig" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Diese Methode empfiehlt sich um verschiedene Varianten unterschiedlicher Artikel zu gruppieren -
+z.B. nach Farbe oder Form. Hierzu vergeben Sie doppelte Variantenartikelnummern innerhalb unterschiedlicher Artikel.</p>
+<p>Varianten für Artikel Männer T-Shirt</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">001</span> <span class="p">(</span><span class="n">Rot</span><span class="p">)</span>
+<span class="mi">002</span> <span class="p">(</span><span class="n">Gelb</span><span class="p">)</span>
+<span class="mi">003</span> <span class="p">(</span><span class="n">Blau</span><span class="p">)</span>
+<span class="mi">004</span> <span class="p">(</span><span class="n">Grün</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Varianten für Artikel Frauen T-Shirt</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">001</span> <span class="p">(</span><span class="n">Rot</span><span class="p">)</span>
+<span class="mi">002</span> <span class="p">(</span><span class="n">Gelb</span><span class="p">)</span>
+<span class="mi">003</span> <span class="p">(</span><span class="n">Blau</span><span class="p">)</span>
+<span class="mi">004</span> <span class="p">(</span><span class="n">Grün</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition attention">
+<p class="admonition-title">Achtung</p>
+<p>Die Hauptartikelnummer sollte auf jeden Fall eindeutig sein!</p>
+</div>
+</div>
+</div>
+<div class="section" id="groszen">
+<h2>Größen<a class="headerlink" href="#groszen" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Für Größen können die selben Schemas wie für Varianten verwendet werden.</p>
+</div>
+<div class="section" id="mehrdimensionale-varianten">
+<h2>Mehrdimensionale Varianten<a class="headerlink" href="#mehrdimensionale-varianten" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Oxid eShop bietet die Möglichkeit um mehrdimensionale Varianten abzubilden,
+also Hauptartikel die in mehrfach verzweigte Subartikel haben.
+Ein Beispiel für solche Varianten sind:</p>
+<ul class="simple">
+<li><p>T-Shirt, Farbe Rot, Größe M</p></li>
+<li><p>Poloshirt, Farbe Blau, Größe XL</p></li>
+<li><p>Tasse, Farbe Gold, Größe 150ml</p></li>
+</ul>
+<p>Damit der Connector automatisch den zugrunde liegenden Shop Artikel ermitteln kann,
+ist es notwendig dass Ihre Oxid Artikelnummern einem Schema folgen.
+Dieses Schema sorgt dafür dass eine Subartikelnummer immer aus einer
+Kombination von Haupt-, Varianten- und Größenartikelnummer besteht.</p>
+</div>
+<div class="section" id="beispiele">
+<h2>Beispiele<a class="headerlink" href="#beispiele" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Wie das Schema aussieht können Sie in den Einstellungen des Connectors selbst festlegen.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="n">PRODUCT_SKU</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="n">VARIANT_SKU</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="n">SIZE_SKU</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Damit bei dieser Einstellung der richtige Artikel in den Warenkorb übertragen wird muss beispielsweise folgendes gelten:</p>
+<ul class="simple">
+<li><p>Der HBE Hauptartikel hat die Artikelnummer 000001</p></li>
+<li><p>Die HBE Variante hat die Artikelnummer 001</p></li>
+<li><p>Die HBE Größe hat die Artikelnummer 123</p></li>
+<li><p>Die Mehrdimensionale Oxid Variante hat die Artikelnummer 000001-001-123</p></li>
+</ul>
+<p>Sie können dieses Schema wie bereits erwähnt beliebig ändern, so könnten Sie auf Werte verzichten -
+diese mit einem festen Prefix versehen oder weitere Einstellungen vornehmen.</p>
+<p>So könnten Sie zum Beispiel mit dem Subnummern Artikelschema arbeiten wenn Sie folgende Einstellung setzen:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="n">VARIANT_SKU</span><span class="p">}</span><span class="o">-</span><span class="p">{</span><span class="n">SIZE_SKU</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>Damit bei dieser Einstellung der richtige Artikel in den Warenkorb übertragen wird muss beispielsweise folgendes gelten:</p>
+<ul class="simple">
+<li><p>Die HBE Variante hat die Artikelnummer 000001-001</p></li>
+<li><p>Die HBE Größe hat die Artikelnummer 123</p></li>
+<li><p>Die Mehrdimensionale Oxid Variante hat die Artikelnummer 000001-001-123</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../oxid/index.html" class="btn btn-neutral float-right" title="Oxid eShop" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Allgemeine Informationen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Aggrosoft GmbH
+
+    </p>
+  </div>
+    
+    
+    
+    Erstellt mit <a href="http://sphinx-doc.org/">Sphinx</a> mit einem
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
