@@ -7,3 +7,4 @@ Eingabefelder
 
    base
    prices
+   constraints

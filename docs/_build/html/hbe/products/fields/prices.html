@@ -38,7 +38,7 @@
     
     <link rel="index" title="Stichwortverzeichnis" href="../../../genindex.html" />
     <link rel="search" title="Suche" href="../../../search.html" />
-    <link rel="next" title="Motive" href="../../logos/index.html" />
+    <link rel="next" title="Grenzwerte" href="constraints.html" />
     <link rel="prev" title="Stammdaten" href="base.html" /> 
 </head>
 
@@ -100,7 +100,12 @@
 <li class="toctree-l3"><a class="reference internal" href="../categories.html">Produktkategorien</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../sizes.html">Größen</a></li>
 <li class="toctree-l3 current"><a class="reference internal" href="../products.html">Produkte</a><ul class="current">
-<li class="toctree-l4 current"><a class="reference internal" href="index.html">Eingabefelder</a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html">Eingabefelder</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="base.html">Stammdaten</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">Preise</a></li>
+<li class="toctree-l5"><a class="reference internal" href="constraints.html">Grenzwerte</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -198,8 +203,15 @@ Sonderangebote.</p>
 <p>Schaltet die Flächenberechnung als Grundlage für die Kalkulation des
 Preises ein (siehe Flächenberechnung).</p>
 </div>
-<div class="section" id="preis">
-<h2>Preis<a class="headerlink" href="#preis" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="steuersatz">
+<h2>Steuersatz<a class="headerlink" href="#steuersatz" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Steuersatz der bei der Berechnung für diesen Artikel
+berücksichtigt werden soll. Der Steuersatz sollte exakt dem in
+Ihrem Shop System entsprechen um Fehler bei der
+Preisberechnung zu vermeiden.</p>
+</div>
+<div class="section" id="grundpreis">
+<h2>Grundpreis<a class="headerlink" href="#grundpreis" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Der Brutto-Preis des Produktes ohne jegliche
 Gestaltung. Dieser Preis sollte exakt dem Preis in Ihrem Shop
 entsprechen.</p>
@@ -222,6 +234,21 @@ Textblock addiert werden soll.</p>
 wenn der Benutzer beim Gestalten des Artikels ein eigenes
 Bild verwendet.</p>
 </div>
+<div class="section" id="preis-korrekturabzug">
+<h2>Preis Korrekturabzug<a class="headerlink" href="#preis-korrekturabzug" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Aufpreis falls der Kunde einen Korrekturabzug wünscht, aktuell
+nicht Verfügbar im Designer.</p>
+</div>
+<div class="section" id="preis-andruckmuster">
+<h2>Preis Andruckmuster<a class="headerlink" href="#preis-andruckmuster" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Aufpreis falls der Kunde ein Andruckmuster wünscht, aktuell
+nicht Verfügbar im Designer.</p>
+</div>
+<div class="section" id="preis-sonderfarbe">
+<h2>Preis Sonderfarbe<a class="headerlink" href="#preis-sonderfarbe" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Aufpreis für Sonderfarben, aktuell
+nicht Verfügbar im Designer.</p>
+</div>
 <div class="section" id="verpackungseinheit">
 <h2>Verpackungseinheit<a class="headerlink" href="#verpackungseinheit" title="Link zu dieser Überschrift">¶</a></h2>
 <p>Gibt an wie viele Artikel zu einer
@@ -230,13 +257,6 @@ bei der Eingabe der Anzahl im Designer nur in diesen
 Schritten erhöht werden kann, zum Anderen bezieht sich die
 Shirtnetwork Gebührenberechnung auf diese Einheit, statt
 auf die Stückzahl.</p>
-</div>
-<div class="section" id="steuersatz">
-<h2>Steuersatz<a class="headerlink" href="#steuersatz" title="Link zu dieser Überschrift">¶</a></h2>
-<p>der bei der Berechnung für diesen Artikel
-berücksichtigt werden soll. Der Steuersatz sollte exakt dem in
-Ihrem Shop System entsprechen um Fehler bei der
-Preisberechnung zu vermeiden.</p>
 </div>
 </div>
 
@@ -248,7 +268,7 @@ Preisberechnung zu vermeiden.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../../logos/index.html" class="btn btn-neutral float-right" title="Motive" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="constraints.html" class="btn btn-neutral float-right" title="Grenzwerte" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
       
       
         <a href="base.html" class="btn btn-neutral float-left" title="Stammdaten" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>

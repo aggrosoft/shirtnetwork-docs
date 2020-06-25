@@ -30,7 +30,7 @@ Fangen Sie schon heute damit an Ihre Werbeartikel mit Shirtnetwork zu vertreiben
 
 .. toctree::
    :caption: Inhalt
-   :maxdepth: 2
+   :maxdepth: 5
 
    /intro/index
    /tools/index

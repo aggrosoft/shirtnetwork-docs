@@ -15,8 +15,15 @@ Flächenberechnung aktivieren
 Schaltet die Flächenberechnung als Grundlage für die Kalkulation des
 Preises ein (siehe Flächenberechnung).
 
-Preis
-======
+Steuersatz
+==========
+Steuersatz der bei der Berechnung für diesen Artikel
+berücksichtigt werden soll. Der Steuersatz sollte exakt dem in
+Ihrem Shop System entsprechen um Fehler bei der
+Preisberechnung zu vermeiden.
+
+Grundpreis
+==========
 Der Brutto-Preis des Produktes ohne jegliche
 Gestaltung. Dieser Preis sollte exakt dem Preis in Ihrem Shop
 entsprechen.
@@ -39,6 +46,21 @@ Preispauschale die aufgeschlagen werden soll
 wenn der Benutzer beim Gestalten des Artikels ein eigenes
 Bild verwendet.
 
+Preis Korrekturabzug
+====================
+Aufpreis falls der Kunde einen Korrekturabzug wünscht, aktuell
+nicht Verfügbar im Designer.
+
+Preis Andruckmuster
+====================
+Aufpreis falls der Kunde ein Andruckmuster wünscht, aktuell
+nicht Verfügbar im Designer.
+
+Preis Sonderfarbe
+====================
+Aufpreis für Sonderfarben, aktuell
+nicht Verfügbar im Designer.
+
 Verpackungseinheit
 ==================
 Gibt an wie viele Artikel zu einer
@@ -47,10 +69,3 @@ bei der Eingabe der Anzahl im Designer nur in diesen
 Schritten erhöht werden kann, zum Anderen bezieht sich die
 Shirtnetwork Gebührenberechnung auf diese Einheit, statt
 auf die Stückzahl.
-
-Steuersatz
-==========
-der bei der Berechnung für diesen Artikel
-berücksichtigt werden soll. Der Steuersatz sollte exakt dem in
-Ihrem Shop System entsprechen um Fehler bei der
-Preisberechnung zu vermeiden.
