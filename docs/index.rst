@@ -36,6 +36,7 @@ Fangen Sie schon heute damit an Ihre Werbeartikel mit Shirtnetwork zu vertreiben
    /tools/index
    /modules/index
    /pricing/index
+   /hbe/index
 
 
 Weiterführende Links

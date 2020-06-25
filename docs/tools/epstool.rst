@@ -1,14 +1,14 @@
 EPS Tool
-========
+##############
 
 Das EPS Tool erzeugt aus den Konfigurationen Ihrer Kunden automatisch Druckdaten.
 Das Tool kommuniziert hierfür mit dem :doc:`Backend Server <backend>`, dieser sollte also vorher installiert worden sein.
 
 Installation
-------------
+============
 
 Java installieren
-^^^^^^^^^^^^^^^^^
+-----------------
 
 Das EPS Tool basiert auf Java, um es zu verwenden muss ein sog. Java Runtime Environment (JRE) auf Ihrem
 Computer installiert sein. Wir empfehlen den Einsatz des kostenfreien Open JDK von Oracle.
@@ -19,7 +19,7 @@ Laden Sie das `Open JDK Installationspaket <https://adoptopenjdk.net>`__ für ih
 Die Vorauswahl auf der Website ist bereits optimal eingestellt. Folgen Sie den Schritten im Installer, weitere Hilfe finden Sie auf der Website von Adopt Open JDK.
 
 Paket installieren
-^^^^^^^^^^^^^^^^^^
+------------------
 
 Laden Sie zunächst das Installationspaket aus unserem `Download Bereich <https://www.shirtnetwork.de/downloads>`__ herunter.
 Das Paket kommt als .zip Archiv und muss entpackt werden, im Normalfall bietet ihr Betriebssystem hierfür eine Möglichkeit.
@@ -27,13 +27,13 @@ Entpacken Sie das Archiv in ein Verzeichnis Ihrer Wahl z.B. :guilabel:`C:\\epsto
 er darf auch keine Umlaute enthalten.**
 
 Perl installieren
-^^^^^^^^^^^^^^^^^^
+-----------------
 
 Unter Windows ist es zusätzlich notwendig Perl zu installieren, laden Sie das `Strawberry Perl Installationspaket <http://strawberryperl.com/>`__ herunter
 und installieren Sie es unter :guilabel:`C:\\strawberry` (Standardeinstellung)
 
 Software starten
-^^^^^^^^^^^^^^^^
+-----------------
 
 Starten Sie das EPS Tool per Doppelklick auf die Datei :guilabel:`PdfLogoCreator.jar` im Installationsordner des EPS Tools.
 
@@ -45,7 +45,7 @@ Passen Sie den Pfad an ihren gewählten Installationsordner an, achten Sie auf e
 werden. Sollten Sie die Fehlermeldung nicht selbst beheben können senden Sie bitte die vollständige Ausgabe an unseren Support.
 
 Konfiguration
--------------
+=============
 
 Nach dem ersten Start muss ein Projekt konfiguriert werden, der Bildschirm hierfür wird automatisch geöffnet.
 
@@ -65,7 +65,7 @@ Füllen Sie unter ``or create new project`` die Felder aus.
 Drücken Sie auf OK um das neue Projekt zu speichern.
 
 Verwendung
-----------
+==========
 
 Das EPS Tool erlaubt es Ihnen Bestellungen manuell zu filtern und zu generieren, zusätzlich lässt sich die Generierung
 eines bestimmten Auftrags auch direkt aus der Shop bzw. Warexo Backend starten.
