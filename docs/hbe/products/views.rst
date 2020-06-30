@@ -110,7 +110,7 @@ Messen Sie den optischen Druckbereich möglichst genau auf dem Produkt ab und tr
 Wenn Ihnen das Produkt nicht vorliegt schätzen Sie den Wert bitte möglichst genau.
 
 .. Attention::
-   Die eingegebenen cm Größen bestimmen das Ausgabeformat der Druckdatei im `EPS Tool </tools/epstool>`__
+   Die eingegebenen cm Größen bestimmen das Ausgabeformat der Druckdatei im :doc:`EPS Tool </tools/epstool>`
 
 
 DIN Formate

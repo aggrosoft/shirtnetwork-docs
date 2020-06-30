@@ -16,7 +16,7 @@ Angezeigter Titel der Variante z.B. Blau
 Artikelnummer
 -------------
 
-Artikelnummer dieser Variante, achten Sie bitte auf das `Artikelnummern Schema </modules/general/skuscheme>`__
+Artikelnummer dieser Variante, achten Sie bitte auf das :doc:`Artikelnummern Schema </modules/general/skuscheme>`
 
 Aktiv
 -----
@@ -57,5 +57,5 @@ ein Bild hochladen das als Icon der Variante verwendet wird. Sollte ein kleines 
 Konfiguration
 =============
 
-Öffnet den Bildschirm um die Ansichten der Variante festzulegen, weitere Informationen hierzu im `Handbucheintrag </hbe/products/views>`__
+Öffnet den Bildschirm um die Ansichten der Variante festzulegen, weitere Informationen hierzu im :doc:`Handbucheintrag </hbe/products/views>`
 

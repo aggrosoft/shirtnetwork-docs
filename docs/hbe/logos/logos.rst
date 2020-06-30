@@ -15,7 +15,7 @@ Angezeigter Titel dieses Motivs.
 Kategorie
 ---------
 
-Die `Motivkategorie </hbe/logos/categories>`__ dieses Motivs.
+Die :doc:`Motivkategorie </hbe/logos/categories>` dieses Motivs.
 
 Sortierung
 ----------
@@ -84,9 +84,9 @@ Maximale/Minimale Höhe in cm die dieses Motiv haben muss.
 Konfiguration
 =============
 
-Siehe auch `Produkte konfigurieren </hbe/products/fields/configuration>`__
+Siehe auch :doc:`Produkte konfigurieren </hbe/products/fields/configuration>`
 
 Druckarten
 ==========
 
-Wählen Sie hier die verfügbaren `Druckarten </hbe/products/printtypes>`__ für diese Motiv.
+Wählen Sie hier die verfügbaren :doc:`Druckarten </hbe/printtypes>` für diese Motiv.

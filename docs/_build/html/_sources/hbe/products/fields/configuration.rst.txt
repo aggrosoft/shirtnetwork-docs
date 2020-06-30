@@ -13,17 +13,17 @@ Varianten
 =========
 
 In dieser Liste können Sie Varianten für ein Produkt erzeugen und bearbeiten. Weitere Informationen hierzu finden Sie
-im `Handbucheintrag </hbe/products/variants>`__
+im :doc:`Handbucheintrag </hbe/products/variants>`
 
 Druckarten
 ==========
 
-Wählen Sie hier die verfügbaren `Druckarten </hbe/products/printtypes>`__ für das Produkt.
+Wählen Sie hier die verfügbaren :doc:`Druckarten </hbe/printtypes>` für das Produkt.
 
 Größen
 ======
 
-Wählen Sie hier die verfügbaren `Größen </hbe/products/sizes>`__ für das Produkt.
+Wählen Sie hier die verfügbaren :doc:`Größen </hbe/products/sizes>` für das Produkt.
 
 Staffelpreise
 =============
@@ -33,5 +33,5 @@ Staffelpreise verändern den Grundpreis des Produktes ab einer bestimmten Einkau
 Motive
 ======
 
-Sofern die Option `Alle Motive erlauben </hbe/products/fields/constraints>`__ nicht aktiv ist können Sie hier die
+Sofern die Option :doc:`Alle Motive erlauben </hbe/products/fields/constraints>` nicht aktiv ist können Sie hier die
 verfügbaren Motive für das Produkt definieren.

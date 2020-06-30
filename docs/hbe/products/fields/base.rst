@@ -13,7 +13,7 @@ Bezeichnung des Artikels.
 
 Kategorie
 ---------
-Gewünschte Kategorie in der dieser Artikel auftauchen soll.
+Gewünschte :doc:`Produktkategorie </hbe/products/categories>` in der dieser Artikel auftauchen soll.
 
 Artikelnummer
 -------------
