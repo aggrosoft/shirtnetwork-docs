@@ -8,3 +8,6 @@ Produkte
    categories
    sizes
    products
+   variants
+   views
+   assign

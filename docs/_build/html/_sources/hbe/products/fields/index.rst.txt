@@ -8,3 +8,5 @@ Eingabefelder
    base
    prices
    constraints
+   misc
+   configuration

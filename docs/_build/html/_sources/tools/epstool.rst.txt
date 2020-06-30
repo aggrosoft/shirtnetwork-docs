@@ -22,7 +22,7 @@ Die Vorauswahl auf der Website ist bereits optimal eingestellt. Folgen Sie den S
 Paket installieren
 ------------------
 
-Laden Sie zunächst das Installationspaket aus unserem `Download Bereich <https://www.shirtnetwork.de/downloads>`__ herunter.
+Laden Sie zunächst das Installationspaket aus unserem `Download Bereich <http://www.shirtnetwork.com/out/downloads/tools/shirtnetwork-eps-tool.zip>`__ herunter.
 Das Paket kommt als .zip Archiv und muss entpackt werden, im Normalfall bietet ihr Betriebssystem hierfür eine Möglichkeit.
 Entpacken Sie das Archiv in ein Verzeichnis Ihrer Wahl z.B. :guilabel:`C:\\epstool`. **Der Verzeichnisname darf keine runden oder eckigen Klammern enthalten,
 er darf auch keine Umlaute enthalten.**
