@@ -58,7 +58,7 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 html_theme = "sphinx_rtd_theme"
 
 html_theme_options = {
-    'canonical_url': 'https://docs.shirtnetwork.de',
+    'canonical_url': 'https://docs.shirtnetwork.de/',
     'display_version': False,
     'logo_only': True,
     'prev_next_buttons_location': 'bottom',
