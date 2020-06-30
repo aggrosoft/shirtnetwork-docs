@@ -1,0 +1,457 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="de" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Ansichten &mdash; Shirtnetwork  Dokumentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+        <script src="../../_static/js/custom.js"></script>
+        <script src="../../_static/translations.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Stichwortverzeichnis" href="../../genindex.html" />
+    <link rel="search" title="Suche" href="../../search.html" />
+    <link rel="next" title="Produkte zuweisen" href="assign.html" />
+    <link rel="prev" title="Varianten" href="variants.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search"  style="background: white" >
+          
+
+          
+            <a href="../../index.html">
+          
+
+          
+            
+            <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Dokumentation durchsuchen" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Inhalt</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../intro/index.html">Erste Schritte</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../tools/index.html">Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../modules/index.html">Shop Module</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pricing/index.html">Preismodell</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">HBE - Händler Backend</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../login.html">Login</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../intro.html">Übersicht</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../setup.html">Ersteinrichtung</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../printtypes.html">Druckarten</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../taxes.html">Steuersätze</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Produkte</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="categories.html">Produktkategorien</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sizes.html">Größen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="products.html">Produkte</a></li>
+<li class="toctree-l3"><a class="reference internal" href="variants.html">Varianten</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Ansichten</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#eingabefelder">Eingabefelder</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#titel">Titel</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#schlussel">Schlüssel</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#sortierung">Sortierung</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#preis">Preis</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#nicht-gestaltbar">Nicht gestaltbar</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#upload-deaktiviert">Upload deaktiviert</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#bild">Bild</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#maske">Maske</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#icon">Icon</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#overlay">Overlay</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#erlaubte-druckarten">Erlaubte Druckarten</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="#druckbereich">Druckbereich</a><ul>
+<li class="toctree-l5"><a class="reference internal" href="#din-formate">DIN Formate</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="assign.html">Produkte zuweisen</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../logos/index.html">Motive</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Shirtnetwork</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content style-external-links">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html">HBE - Händler Backend</a> &raquo;</li>
+        
+          <li><a href="index.html">Produkte</a> &raquo;</li>
+        
+      <li>Ansichten</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            
+              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/hbe/products/views.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
+            
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="ansichten">
+<h1>Ansichten<a class="headerlink" href="#ansichten" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Eine Variante kann beliebige viele Ansichten beinhalten die gestaltet werden können.</p>
+<div class="section" id="eingabefelder">
+<h2>Eingabefelder<a class="headerlink" href="#eingabefelder" title="Link zu dieser Überschrift">¶</a></h2>
+<div class="section" id="titel">
+<h3>Titel<a class="headerlink" href="#titel" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Angezeigter Titel dieser Ansicht z.B. <span class="guilabel">Vorne</span> oder <span class="guilabel">Links</span></p>
+</div>
+<div class="section" id="schlussel">
+<h3>Schlüssel<a class="headerlink" href="#schlussel" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Der Schlüssel der Ansicht wird verwendet um die vom Kunden gestalteten Elemente zwischen
+den Produkten zu übernehmen. Der Schlüssel kann alphanumerisch sein, wir raten jedoch
+dazu entweder mit Großbuchstaben oder Zahlen ab 0 zu arbeiten.</p>
+<p>Damit Elemente beim Produkt oder Variantenwechsel übernommen werden müssen die Ansichtenschlüssel
+gleich sein. Legen Sie also zum Beispiel ein rotes und ein blaues Shirt an sollten die Frontansichten
+alle den gleichen Schlüssel haben, die Rückansichten etc.</p>
+<div class="section" id="beispiele">
+<h4>Beispiele<a class="headerlink" href="#beispiele" title="Link zu dieser Überschrift">¶</a></h4>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Produkt</p></th>
+<th class="head"><p>Variante</p></th>
+<th class="head"><p>Ansicht</p></th>
+<th class="head"><p>Schlüssel</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>T-Shirt</p></td>
+<td><p>Blau</p></td>
+<td><p>Vorne</p></td>
+<td><p>A</p></td>
+</tr>
+<tr class="row-odd"><td><p>T-Shirt</p></td>
+<td><p>Blau</p></td>
+<td><p>Hinten</p></td>
+<td><p>B</p></td>
+</tr>
+<tr class="row-even"><td><p>T-Shirt</p></td>
+<td><p>Rot</p></td>
+<td><p>Vorne</p></td>
+<td><p>A</p></td>
+</tr>
+<tr class="row-odd"><td><p>T-Shirt</p></td>
+<td><p>Rot</p></td>
+<td><p>Hinten</p></td>
+<td><p>B</p></td>
+</tr>
+<tr class="row-even"><td><p>Pullover</p></td>
+<td><p>Blau</p></td>
+<td><p>Vorne</p></td>
+<td><p>A</p></td>
+</tr>
+<tr class="row-odd"><td><p>Pullover</p></td>
+<td><p>Blau</p></td>
+<td><p>Hinten</p></td>
+<td><p>B</p></td>
+</tr>
+<tr class="row-even"><td><p>Tasse</p></td>
+<td><p>Weiß</p></td>
+<td><p>Vorne</p></td>
+<td><p>A</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tasse</p></td>
+<td><p>Gelb</p></td>
+<td><p>Vorne</p></td>
+<td><p>A</p></td>
+</tr>
+<tr class="row-even"><td><p>Tasse</p></td>
+<td><p>Gelb</p></td>
+<td><p>Boden</p></td>
+<td><p>C</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="sortierung">
+<h3>Sortierung<a class="headerlink" href="#sortierung" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Die Ansichten werden anhand dieser Sortierung aufsteigend angezeigt.</p>
+</div>
+<div class="section" id="preis">
+<h3>Preis<a class="headerlink" href="#preis" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Aufpreis wenn diese Ansicht gestaltet wurde, wird nicht berechnet wenn keine Objekte auf die Ansicht gelegt wurden.</p>
+</div>
+<div class="section" id="nicht-gestaltbar">
+<h3>Nicht gestaltbar<a class="headerlink" href="#nicht-gestaltbar" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Wenn aktiviert kann diese Ansicht vom Kunden angesehen aber nicht gestaltet werden.</p>
+</div>
+<div class="section" id="upload-deaktiviert">
+<h3>Upload deaktiviert<a class="headerlink" href="#upload-deaktiviert" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Verbietet Kundenuploads für die Ansicht.</p>
+</div>
+<div class="section" id="bild">
+<h3>Bild<a class="headerlink" href="#bild" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Ansichtsbild des Produktes, dieses Bild wird dem Kunden zur Gestaltung angezeigt.</p>
+</div>
+<div class="section" id="maske">
+<h3>Maske<a class="headerlink" href="#maske" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Wenn bestimmte Teilbereiche der Gestaltung auf der Ansicht nicht angezeigt werden sollen,
+können Sie mit einer sog. Alphamaske arbeiten. Legen Sie hierzu eine PNG Datei mit transparentem
+Hintergrund an die exakt so groß ist wie das Ansichtsbild. Nur dort wo sich Pixel befinden
+wird die Gestaltung des Kunden angezeigt.</p>
+</div>
+<div class="section" id="icon">
+<h3>Icon<a class="headerlink" href="#icon" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Kleines Vorschaubild, wenn nicht gesetzt wird das Ansichtenbild verwendet</p>
+</div>
+<div class="section" id="overlay">
+<h3>Overlay<a class="headerlink" href="#overlay" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Überlagerungsbild das über der Gestaltung liegt, aktuell nicht verwendet.</p>
+</div>
+<div class="section" id="erlaubte-druckarten">
+<h3>Erlaubte Druckarten<a class="headerlink" href="#erlaubte-druckarten" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Bestimmte für diese Ansicht erlaubte Druckarten.
+Wenn Sie keine erlaubten Druckarten wählen sind alle Druckarten erlaubt.</p>
+</div>
+</div>
+<div class="section" id="druckbereich">
+<h2>Druckbereich<a class="headerlink" href="#druckbereich" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Der Druckbereich bestimmt in welchem Bereich des Produkts Objekte abgelegt werden dürfen.
+Die Beschränkung der Objekte auf den Druckbereich ist optional, trotzdem muss er definiert
+werden um die Druckdaten im richtigen Maß auszugeben.</p>
+<p>Der Druckbereich lässt sich einfach mit der Maus verändern oder verschieben, außerdem
+können Sie die Werte manuell anpassen.</p>
+<p>Wenn gewünscht können Sie das Seitenverhältnis vorher festlegen, hierdurch wird sicher gestellt
+dass die Druckbereiche z.B. in einem DIN Format (DIN A4 etc.) oder genau rechteckig gezogen werden.</p>
+<p>Nachdem Sie den optischen Druckbereich festgelegt haben geben Sie bitte entsprechend die Breite oder Höhe
+in cm an, der andere Wert wird automatisch aus dem Verhältnis zum optischen Druckbereich ermittelt.</p>
+<p>Messen Sie den optischen Druckbereich möglichst genau auf dem Produkt ab und tragen Sie den Wert entsprechend ein.
+Wenn Ihnen das Produkt nicht vorliegt schätzen Sie den Wert bitte möglichst genau.</p>
+<div class="admonition attention">
+<p class="admonition-title">Achtung</p>
+<p>Die eingegebenen cm Größen bestimmen das Ausgabeformat der Druckdatei im <a class="reference external" href="/tools/epstool">EPS Tool</a></p>
+</div>
+<div class="section" id="din-formate">
+<h3>DIN Formate<a class="headerlink" href="#din-formate" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Im folgenden die DIN Formate als Referenz, die Druckbereiche können auch in nicht DIN Formaten definiert werden.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 30%" />
+<col style="width: 35%" />
+<col style="width: 35%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Format</p></th>
+<th class="head"><p>Breite in cm</p></th>
+<th class="head"><p>Höhe in cm</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>DIN A0</p></td>
+<td><p>84,0</p></td>
+<td><p>118,9</p></td>
+</tr>
+<tr class="row-odd"><td><p>DIN A1</p></td>
+<td><p>59,4</p></td>
+<td><p>84,0</p></td>
+</tr>
+<tr class="row-even"><td><p>DIN A2</p></td>
+<td><p>42,0</p></td>
+<td><p>59,4</p></td>
+</tr>
+<tr class="row-odd"><td><p>DIN A3</p></td>
+<td><p>29,7</p></td>
+<td><p>42,0</p></td>
+</tr>
+<tr class="row-even"><td><p>DIN A4</p></td>
+<td><p>21,0</p></td>
+<td><p>29,7</p></td>
+</tr>
+<tr class="row-odd"><td><p>DIN A5</p></td>
+<td><p>14,8</p></td>
+<td><p>21,0</p></td>
+</tr>
+<tr class="row-even"><td><p>DIN A6</p></td>
+<td><p>10,5</p></td>
+<td><p>14,8</p></td>
+</tr>
+<tr class="row-odd"><td><p>DIN A7</p></td>
+<td><p>7,40</p></td>
+<td><p>10,5</p></td>
+</tr>
+<tr class="row-even"><td><p>DIN A8</p></td>
+<td><p>5,20</p></td>
+<td><p>7,40</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="assign.html" class="btn btn-neutral float-right" title="Produkte zuweisen" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="variants.html" class="btn btn-neutral float-left" title="Varianten" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Aggrosoft GmbH
+
+    </p>
+  </div>
+    
+    
+    
+    Erstellt mit <a href="http://sphinx-doc.org/">Sphinx</a> mit einem
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    bereitgestellt von <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

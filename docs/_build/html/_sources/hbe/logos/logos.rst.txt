@@ -15,7 +15,7 @@ Angezeigter Titel dieses Motivs.
 Kategorie
 ---------
 
-Die `Motivkategorie </hbe/logos/categories>`__ diesesn Motivs.
+Die `Motivkategorie </hbe/logos/categories>`__ dieses Motivs.
 
 Sortierung
 ----------

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Motive &mdash; Shirtnetwork  Dokumentation</title>
+  <title>Varianten &mdash; Shirtnetwork  Dokumentation</title>
   
 
   
@@ -38,7 +38,8 @@
     
     <link rel="index" title="Stichwortverzeichnis" href="../../genindex.html" />
     <link rel="search" title="Suche" href="../../search.html" />
-    <link rel="prev" title="Motivkategorien" href="categories.html" /> 
+    <link rel="next" title="Ansichten" href="views.html" />
+    <link rel="prev" title="Konfiguration" href="fields/configuration.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -95,32 +96,31 @@
 <li class="toctree-l2"><a class="reference internal" href="../setup.html">Ersteinrichtung</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../printtypes.html">Druckarten</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../taxes.html">Steuersätze</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../products/index.html">Produkte</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="index.html">Motive</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="categories.html">Motivkategorien</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Motive</a><ul>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Produkte</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="categories.html">Produktkategorien</a></li>
+<li class="toctree-l3"><a class="reference internal" href="sizes.html">Größen</a></li>
+<li class="toctree-l3"><a class="reference internal" href="products.html">Produkte</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Varianten</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#eingabefelder">Eingabefelder</a><ul>
 <li class="toctree-l5"><a class="reference internal" href="#titel">Titel</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#kategorie">Kategorie</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#sortierung">Sortierung</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#artikelnummer">Artikelnummer</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#aktiv">Aktiv</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#farbbar">Färbbar</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#skalierbar">Skalierbar</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#bild">Bild</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#uploads-erlauben">Uploads erlauben</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#sortierung">Sortierung</a></li>
 <li class="toctree-l5"><a class="reference internal" href="#preis">Preis</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#min-preis">Min. Preis</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#id1">Min. Preis</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#aufwandsfaktor">Aufwandsfaktor</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#min-max-breite">Min./Max. Breite</a></li>
-<li class="toctree-l5"><a class="reference internal" href="#min-max-hohe">Min./Max. Höhe</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#upload-preis">Upload Preis</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#farbe">Farbe</a></li>
+<li class="toctree-l5"><a class="reference internal" href="#farbbild">Farbbild</a></li>
 </ul>
 </li>
 <li class="toctree-l4"><a class="reference internal" href="#konfiguration">Konfiguration</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#druckarten">Druckarten</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="views.html">Ansichten</a></li>
+<li class="toctree-l3"><a class="reference internal" href="assign.html">Produkte zuweisen</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="../logos/index.html">Motive</a></li>
 </ul>
 </li>
 </ul>
@@ -171,16 +171,16 @@
         
           <li><a href="../index.html">HBE - Händler Backend</a> &raquo;</li>
         
-          <li><a href="index.html">Motive</a> &raquo;</li>
+          <li><a href="index.html">Produkte</a> &raquo;</li>
         
-      <li>Motive</li>
+      <li>Varianten</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
             
-              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/hbe/logos/logos.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
+              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/hbe/products/variants.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
             
           
         
@@ -194,80 +194,53 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="motive">
-<h1>Motive<a class="headerlink" href="#motive" title="Link zu dieser Überschrift">¶</a></h1>
-<p>Motive erlauben es Ihren Kunden fertig gestaltete Grafiken auf das Produkt zu bringen.</p>
+  <div class="section" id="varianten">
+<h1>Varianten<a class="headerlink" href="#varianten" title="Link zu dieser Überschrift">¶</a></h1>
+<p>Eine Variante ist die erste Unterebene eines Produktes, Varianten können beliebig viele Ansichten beinhalten.
+Eine Variante könnte z.B. die Farbe eines T-Shirts sein.</p>
 <div class="section" id="eingabefelder">
 <h2>Eingabefelder<a class="headerlink" href="#eingabefelder" title="Link zu dieser Überschrift">¶</a></h2>
 <div class="section" id="titel">
 <h3>Titel<a class="headerlink" href="#titel" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Angezeigter Titel dieses Motivs.</p>
+<p>Angezeigter Titel der Variante z.B. Blau</p>
 </div>
-<div class="section" id="kategorie">
-<h3>Kategorie<a class="headerlink" href="#kategorie" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Die <a class="reference external" href="/hbe/logos/categories">Motivkategorie</a> dieses Motivs.</p>
-</div>
-<div class="section" id="sortierung">
-<h3>Sortierung<a class="headerlink" href="#sortierung" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Die Motive werden anhand dieses Wertes sortiert, aufsteigend von niedrig nach hoch.</p>
+<div class="section" id="artikelnummer">
+<h3>Artikelnummer<a class="headerlink" href="#artikelnummer" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Artikelnummer dieser Variante, achten Sie bitte auf das <a class="reference external" href="/modules/general/skuscheme">Artikelnummern Schema</a></p>
 </div>
 <div class="section" id="aktiv">
 <h3>Aktiv<a class="headerlink" href="#aktiv" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Nur aktive Motive werden angezeigt.</p>
+<p>Nur aktive Varianten stehen zur Auswahl</p>
 </div>
-<div class="section" id="farbbar">
-<h3>Färbbar<a class="headerlink" href="#farbbar" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Erlaubt es dem Kunden die Farben des Motivs zu ändern, nur für SVG Grafiken verfügbar.</p>
+<div class="section" id="uploads-erlauben">
+<h3>Uploads erlauben<a class="headerlink" href="#uploads-erlauben" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Bestimmt ob Kundenuploads auf dieser Variante möglich sind</p>
 </div>
-<div class="section" id="skalierbar">
-<h3>Skalierbar<a class="headerlink" href="#skalierbar" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Erlaubt es dem Kunden die Größe des Motivs zu ändern, ansonsten wird es immer in der
-minimal Breite/Höhe angezeigt.</p>
-</div>
-<div class="section" id="bild">
-<h3>Bild<a class="headerlink" href="#bild" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Grafikdatei für dieses Motiv, verwenden Sie hier .png Dateien für Bitmap Motive oder
-.svg Dateien für Vektor Motive.</p>
-<div class="admonition attention">
-<p class="admonition-title">Achtung</p>
-<p>Speichern Sie SVG Grafiken im SVG Tiny 1.1 Format, lösen Sie alle Gruppen und Ebenen auf und wandeln Sie alle Effekte
-in Pfade um. Jede verwendete Farbe wird gruppiert und gemeinsam gefärbt.
-Verwenden Sie nicht mehr als 3 unterschiedliche Farben. Es kann zu Anzeigeproblemen bei komplexen Motiven kommen,
-wir raten dazu möglichst einfache Grafiken zu verwenden.</p>
-</div>
+<div class="section" id="sortierung">
+<h3>Sortierung<a class="headerlink" href="#sortierung" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Die Varianten werden nach der Sortierung aufsteigend angezeigt.</p>
 </div>
 <div class="section" id="preis">
 <h3>Preis<a class="headerlink" href="#preis" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Grundpreis für dieses Motiv, nicht verwendet bei cm² Berechnung.</p>
+<p>Aufpreis für diese Variante</p>
 </div>
-<div class="section" id="min-preis">
-<h3>Min. Preis<a class="headerlink" href="#min-preis" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Minimaler Preis der bei aktivierter cm² Berechnung verwendet wird.</p>
+<div class="section" id="upload-preis">
+<h3>Upload Preis<a class="headerlink" href="#upload-preis" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Aufschlag für einen Kundenupload auf dieser Variante, zusätzlich zu den Upload Kosten des Produkts.</p>
 </div>
-<div class="section" id="id1">
-<h3>Min. Preis<a class="headerlink" href="#id1" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Maximaler Preis der bei aktivierter cm² Berechnung verwendet wird.</p>
+<div class="section" id="farbe">
+<h3>Farbe<a class="headerlink" href="#farbe" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Hexadezimal Farbwert dieser Variante, sollte sich optisch mit dem Farbton des Produktbildes decken.</p>
 </div>
-<div class="section" id="aufwandsfaktor">
-<h3>Aufwandsfaktor<a class="headerlink" href="#aufwandsfaktor" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Der berechnete cm² Preis wird mit diesem Faktor multipliziert.</p>
-</div>
-<div class="section" id="min-max-breite">
-<h3>Min./Max. Breite<a class="headerlink" href="#min-max-breite" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Maximale/Minimale Breite in cm die dieses Motiv haben muss.</p>
-</div>
-<div class="section" id="min-max-hohe">
-<h3>Min./Max. Höhe<a class="headerlink" href="#min-max-hohe" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Maximale/Minimale Höhe in cm die dieses Motiv haben muss.</p>
+<div class="section" id="farbbild">
+<h3>Farbbild<a class="headerlink" href="#farbbild" title="Link zu dieser Überschrift">¶</a></h3>
+<p>Für mehrfarbige Varianten wie z.B. 2-farbige Shirts können Sie hier zusätzlich zum Farbwert noch
+ein Bild hochladen das als Icon der Variante verwendet wird. Sollte ein kleines Icon mit ca. 20x20 px sein</p>
 </div>
 </div>
 <div class="section" id="konfiguration">
 <h2>Konfiguration<a class="headerlink" href="#konfiguration" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Siehe auch <a class="reference external" href="/hbe/products/fields/configuration">Produkte konfigurieren</a></p>
-</div>
-<div class="section" id="druckarten">
-<h2>Druckarten<a class="headerlink" href="#druckarten" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Wählen Sie hier die verfügbaren <a class="reference external" href="/hbe/products/printtypes">Druckarten</a> für diese Motiv.</p>
+<p>Öffnet den Bildschirm um die Ansichten der Variante festzulegen, weitere Informationen hierzu im <a class="reference external" href="/hbe/products/views">Handbucheintrag</a></p>
 </div>
 </div>
 
@@ -279,8 +252,10 @@ wir raten dazu möglichst einfache Grafiken zu verwenden.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="views.html" class="btn btn-neutral float-right" title="Ansichten" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
       
-        <a href="categories.html" class="btn btn-neutral float-left" title="Motivkategorien" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+      
+        <a href="fields/configuration.html" class="btn btn-neutral float-left" title="Konfiguration" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
       
     </div>
   

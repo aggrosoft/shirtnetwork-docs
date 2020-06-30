@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>Preise &mdash; Shirtnetwork  Dokumentation</title>
+  <title>Sonstige &mdash; Shirtnetwork  Dokumentation</title>
   
 
   
@@ -38,8 +38,8 @@
     
     <link rel="index" title="Stichwortverzeichnis" href="../../../genindex.html" />
     <link rel="search" title="Suche" href="../../../search.html" />
-    <link rel="next" title="Grenzwerte" href="constraints.html" />
-    <link rel="prev" title="Stammdaten" href="base.html" /> 
+    <link rel="next" title="Konfiguration" href="configuration.html" />
+    <link rel="prev" title="Grenzwerte" href="constraints.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -102,9 +102,9 @@
 <li class="toctree-l3 current"><a class="reference internal" href="../products.html">Produkte</a><ul class="current">
 <li class="toctree-l4 current"><a class="reference internal" href="index.html">Eingabefelder</a><ul class="current">
 <li class="toctree-l5"><a class="reference internal" href="base.html">Stammdaten</a></li>
-<li class="toctree-l5 current"><a class="current reference internal" href="#">Preise</a></li>
+<li class="toctree-l5"><a class="reference internal" href="prices.html">Preise</a></li>
 <li class="toctree-l5"><a class="reference internal" href="constraints.html">Grenzwerte</a></li>
-<li class="toctree-l5"><a class="reference internal" href="misc.html">Sonstige</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">Sonstige</a></li>
 <li class="toctree-l5"><a class="reference internal" href="configuration.html">Konfiguration</a></li>
 </ul>
 </li>
@@ -172,14 +172,14 @@
         
           <li><a href="index.html">Eingabefelder</a> &raquo;</li>
         
-      <li>Preise</li>
+      <li>Sonstige</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
             
-              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/hbe/products/fields/prices.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
+              <a href="https://github.com/aggrosoft/shirtnetwork-docs/blob/master/docs/hbe/products/fields/misc.rst" class="fa fa-github"> Auf GitHub bearbeiten</a>
             
           
         
@@ -193,86 +193,15 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="preise">
-<h1>Preise<a class="headerlink" href="#preise" title="Link zu dieser Überschrift">¶</a></h1>
-<div class="section" id="eingabefelder">
-<h2>Eingabefelder<a class="headerlink" href="#eingabefelder" title="Link zu dieser Überschrift">¶</a></h2>
-<div class="section" id="preis-fixieren">
-<h3>Preis fixieren<a class="headerlink" href="#preis-fixieren" title="Link zu dieser Überschrift">¶</a></h3>
-<p>mit dieser Option können Sie bestimmen, dass
-der eingegebene Preis für den Artikel fix ist. Die Gestaltung
-im Designer hat dann keinen Einfluss auf den Preis mehr.
-Diese Option eignet sich gut für Promotionartikel und
-Sonderangebote.</p>
+  <div class="section" id="sonstige">
+<h1>Sonstige<a class="headerlink" href="#sonstige" title="Link zu dieser Überschrift">¶</a></h1>
+<div class="section" id="beschreibung">
+<h2>Beschreibung<a class="headerlink" href="#beschreibung" title="Link zu dieser Überschrift">¶</a></h2>
+<p>HTML Beschreibung des Produktes, kann im Designer angezeigt werden.</p>
 </div>
-<div class="section" id="flachenberechnung-aktivieren">
-<h3>Flächenberechnung aktivieren<a class="headerlink" href="#flachenberechnung-aktivieren" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Schaltet die Flächenberechnung als Grundlage für die Kalkulation des
-Preises ein (siehe Flächenberechnung weiter unten).</p>
-</div>
-<div class="section" id="steuersatz">
-<h3>Steuersatz<a class="headerlink" href="#steuersatz" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Steuersatz der bei der Berechnung für diesen Artikel
-berücksichtigt werden soll. Der Steuersatz sollte exakt dem in
-Ihrem Shop System entsprechen um Fehler bei der
-Preisberechnung zu vermeiden.</p>
-</div>
-<div class="section" id="grundpreis">
-<h3>Grundpreis<a class="headerlink" href="#grundpreis" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Der Brutto-Preis des Produktes ohne jegliche
-Gestaltung. Dieser Preis sollte exakt dem Preis in Ihrem Shop
-entsprechen.</p>
-</div>
-<div class="section" id="textpreis-pro-buchstabe-pro-zeile">
-<h3>Textpreis pro Buchstabe/pro Zeile<a class="headerlink" href="#textpreis-pro-buchstabe-pro-zeile" title="Link zu dieser Überschrift">¶</a></h3>
-<p>der Preis der bei der Gestaltung mit Text zum tragen kommt. Je nach gewählter
-Option, wird dieser für jeden Buchstaben oder pro Zeile
-kalkuliert und auf den Artikelpreis aufgeschlagen.</p>
-</div>
-<div class="section" id="textelement-preis">
-<h3>Textelement Preis<a class="headerlink" href="#textelement-preis" title="Link zu dieser Überschrift">¶</a></h3>
-<p>zusätzlich zum Textpreis, können Sie hier
-einen Aufpreis je Textelement eintragen der für jeden
-Textblock addiert werden soll.</p>
-</div>
-<div class="section" id="upload-preis">
-<h3>Upload Preis<a class="headerlink" href="#upload-preis" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Preispauschale die aufgeschlagen werden soll
-wenn der Benutzer beim Gestalten des Artikels ein eigenes
-Bild verwendet.</p>
-</div>
-<div class="section" id="preis-korrekturabzug">
-<h3>Preis Korrekturabzug<a class="headerlink" href="#preis-korrekturabzug" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Aufpreis falls der Kunde einen Korrekturabzug wünscht, aktuell
-nicht Verfügbar im Designer.</p>
-</div>
-<div class="section" id="preis-andruckmuster">
-<h3>Preis Andruckmuster<a class="headerlink" href="#preis-andruckmuster" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Aufpreis falls der Kunde ein Andruckmuster wünscht, aktuell
-nicht Verfügbar im Designer.</p>
-</div>
-<div class="section" id="preis-sonderfarbe">
-<h3>Preis Sonderfarbe<a class="headerlink" href="#preis-sonderfarbe" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Aufpreis für Sonderfarben, aktuell
-nicht Verfügbar im Designer.</p>
-</div>
-<div class="section" id="verpackungseinheit">
-<h3>Verpackungseinheit<a class="headerlink" href="#verpackungseinheit" title="Link zu dieser Überschrift">¶</a></h3>
-<p>Gibt an wie viele Artikel zu einer
-Verpackungseinheit gehören. Dies bewirkt zum einen dass
-bei der Eingabe der Anzahl im Designer nur in diesen
-Schritten erhöht werden kann, zum Anderen bezieht sich die
-Shirtnetwork Gebührenberechnung auf diese Einheit, statt
-auf die Stückzahl.</p>
-</div>
-</div>
-<div class="section" id="flachenberechnung">
-<h2>Flächenberechnung<a class="headerlink" href="#flachenberechnung" title="Link zu dieser Überschrift">¶</a></h2>
-<p>Alternativ zur Berechnung des Preises von Objekten anhand von fixierten Preisen haben Sie die Möglichkeit den Preis
-auf Basis der aktuellen Größe des Objekts zu berechnen.</p>
-<p>Wenn die Flächenberechnung aktiviert wurde werden die Preise der Objekte anhand des cm² Preises der gewählten Druckart
-berechnet. Die Grundpreise werden hierdurch außer Kraft gesetzt.</p>
-<p>Damit diese Berechnung korrekt funktioniert müssen sinnvolle cm Größen für die Druckbereiche angegeben werdenö</p>
+<div class="section" id="produktmeldung">
+<h2>Produktmeldung<a class="headerlink" href="#produktmeldung" title="Link zu dieser Überschrift">¶</a></h2>
+<p>Wenn gesetzt erscheint diese Meldung wenn das Produkt aufgerufen wird.</p>
 </div>
 </div>
 
@@ -284,10 +213,10 @@ berechnet. Die Grundpreise werden hierdurch außer Kraft gesetzt.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="constraints.html" class="btn btn-neutral float-right" title="Grenzwerte" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
+        <a href="configuration.html" class="btn btn-neutral float-right" title="Konfiguration" accesskey="n" rel="next">Weiter <span class="fa fa-arrow-circle-right"></span></a>
       
       
-        <a href="base.html" class="btn btn-neutral float-left" title="Stammdaten" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
+        <a href="constraints.html" class="btn btn-neutral float-left" title="Grenzwerte" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Zurück</a>
       
     </div>
   
