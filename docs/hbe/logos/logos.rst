@@ -42,7 +42,7 @@ Bild
 ----
 
 Grafikdatei für dieses Motiv, verwenden Sie hier .png Dateien für Bitmap Motive oder
-.svg Dateien für Vektor Motive.
+.svg Dateien für Vektor Motive. Siehe auch :doc:`Motivdateien vorbereiten </hbe/logos/preparation>`
 
 .. Attention::
    Speichern Sie SVG Grafiken im SVG Tiny 1.1 Format, lösen Sie alle Gruppen und Ebenen auf und wandeln Sie alle Effekte
