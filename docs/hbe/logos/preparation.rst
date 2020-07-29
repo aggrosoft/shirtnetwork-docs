@@ -8,6 +8,7 @@ Farben wählen kann müssen im SVG Format erstellt werden.
 Beachten Sie bitte folgendes für SVG Dateien:
 
 * Wandeln Sie alle Objekte in Pfade um, nutzen Sie hierzu z.B. die Funktion "Objekt umwandeln" in Illustrator
+oder die Funktion "Objekte in Kurven konventieren" in Corel
 * Lösen Sie alle Gruppen und Ebenen auf. Die fertige Datei sollte nur noch eine Ebene mit Pfaden enthalten
 * Jede verwendete Farbe wird vom Designer gruppiert und gleichzeitig gefärbt, verwenden Sie nicht mehr als 3 Farben
 * Nutzen Sie als Farbe einen Hexwert der auch in Ihren Druckarten vorkommt, ansonsten wird der optisch ähnlichste Wert gewählt
