@@ -10,3 +10,4 @@ um ein Shop Plugin das wie gewohnt installiert wird.
 
    general/index
    oxid/index
+   shopware/index
