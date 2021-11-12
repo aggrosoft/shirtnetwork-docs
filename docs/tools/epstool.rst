@@ -34,7 +34,7 @@ Unter Windows ist es zusätzlich notwendig Perl zu installieren, laden Sie das `
 und installieren Sie es unter :guilabel:`C:\\strawberry` (Standardeinstellung)
 
 FontForge installieren
------------------
+-------------------------
 
 Unter Windows ist es zusätzlich notwendig FontForge zu installieren, laden Sie das `FontForge Installationspaket <https://fontforge.org/en-US/>`__ herunter
 und installieren Sie es unter :guilabel:`C:\\Program Files (x86)\\FontForgeBuilds` (Standardeinstellung)
