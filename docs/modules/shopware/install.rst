@@ -16,12 +16,11 @@ Installieren Sie die Erweiterung zunächst mit dem folgenden Befehl:
 
     composer require oomphinc/composer-installers-extender:~2.0
 
-Konfigurieren Sie anschließend das custom Verzeichnis mit folgendem Befehl:
+Konfigurieren Sie anschließend das custom für das Shirtnetwork Plugin Verzeichnis mit folgendem Befehl:
 
 .. code-block:: bash
 
-    composer config --json extra.installer-types '["shopware-platform-plugin"]'
-    && composer config --json extra.installer-paths '{"custom/plugins/{$name}": ["type:shopware-platform-plugin"]}'
+    composer config --json extra.installer-paths '{"custom/plugins/{$name}": ["shirtnetwork/designer-shopware"]}'
 
 
 Das eigentliche Plugin wird über unser hausinternes Composer Repository verteilt,
